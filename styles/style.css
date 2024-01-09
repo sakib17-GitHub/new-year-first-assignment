@@ -1,0 +1,404 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+
+/* banner related style */
+.banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("/images/new-year/Banner\ Image.png");
+    max-width: 1100px;
+    min-height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    margin:50px auto; 
+    
+}
+.banner-title{
+    color:rgb(252, 245, 245);
+    text-align: center;
+    padding-top:150px;
+    font-size: 28px;
+}
+.banner-heading{
+    color:white;
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    padding:20px 220px;
+}
+
+/* discount related style */
+.discount{
+    text-align: center;
+}
+.discount-information-title{
+    color:red;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.discount-information h6{
+    color:rgb(255, 47, 47);
+    font-size: 12px;
+    padding:8px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.discount-information h4{
+    font-size: 32px;
+    margin-bottom:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.discount img{
+    width:50%;
+    margin-bottom:60px;
+}
+
+/* midnight-party related style */
+.midnight-party-container{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("/images/new-year/Vectorrr.png");
+    max-width: 1100px;
+    min-height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    margin:50px auto;
+    display:flex;    
+}
+
+.midnight-party-information{
+        padding:120px 60px;
+}
+.midnight-party-information-title{
+    font-size: 48px;
+    color:white;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.midnight-party-information-msg{
+    font-size: 14px;
+    color:rgb(226, 222, 222);
+    margin-bottom: 20px;
+}
+
+.party-join-button{
+    padding:8px 16px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border:none;
+    font-weight: 800;
+    text-align: center;
+    cursor: pointer;
+}
+.twenty-four{
+   display: block;
+   max-width: 300px;
+   max-height: 400px;
+   margin:auto 100px;
+   opacity: 0.9;
+}
+
+/* party schedule related style */
+.party-schedule-container{
+    background-image: linear-gradient(to bottom right, white , rgb(255, 216, 202));
+    max-width: 1100px;
+    min-height:400px;
+    border-radius: 14px;
+    margin:100px auto;
+    text-align: center;
+    line-height:30px;
+}
+.party-place{
+    padding-top: 120px;
+}
+
+.party-schedule-container>h4>span{
+    color:orangered;
+    font-weight: bolder;
+}
+.party-schedule-button{
+    background-color: orangered;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border:none;
+    margin-top:30px;
+    text-align: center;
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+/* coming-soon related style */
+.coming-soon-container{
+    max-width: 1100px;
+    min-height:400px;
+    margin:100px auto;
+    display:flex;  
+    justify-content: space-between;
+    text-align: center;
+}
+
+.best-offer{
+    margin:auto;
+}
+.best-offer-title{
+    color:#F82814;
+    font-size: 14px;
+    font-weight: bolder;
+    margin:3px 0px;
+}
+.best-offer-heading{
+    font-weight: bolder;
+    font-size: 36px;
+}
+.best-offer-message{
+    font-size: 12px;
+    margin:3px 0px;
+    color:grey;
+    padding-right:20px;
+}
+
+.celebrating-new-year-pic{
+    display:block;
+    padding:20px;
+}
+.celebrating-new-year{
+    border:15px solid #F82814;
+    border-radius: 100%;
+    margin-right:80px;
+}
+.wishing-new-year{
+    margin:auto 0px;
+    padding-right:100px;
+}
+
+.new-year-title{
+        color:#F82814;
+        font-size: 46px;
+        margin-top: 50px;
+}
+.new-year-message{
+    font-size: 12px;
+    margin:3px 0px;
+    color:grey;  
+}
+.new-year-message span{
+    color:#F82814;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.happy-new-year-pic{
+    display: block;
+    margin-top: 20px;
+}
+
+/* holidays-sale related style */
+
+.holidays-sale-container{
+    max-width: 1100px;
+    min-height:400px;
+    margin:100px auto;
+    position: relative;
+}
+
+.holidays-sale-container-title{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom:8px;
+}
+.holidays-sale-container-heading{
+    text-align: center;
+    font-weight: 900;
+    font-size: 42px;
+    margin-bottom:8px;
+}
+.holidays-sale-container-heading span{
+    color:#F82814;
+}
+.holidays-sale-container-message{
+    text-align: center;
+    font-size: 12px;
+    color:grey;
+    padding: 0px 200px;
+}
+.holidays-sale-container img{
+    display:block;
+} 
+.red-rectangle{
+    width:100%;
+    margin-top: 426px;
+}
+.box-pic{
+    max-width: 400px;
+    position: absolute;
+    top:328px;
+    left:50px;   
+}
+.discount-pic{
+    position: absolute;
+    border-radius: 100%;
+    left:564px;
+    top:200px;
+}
+.customer-pic{
+    position: absolute;
+    width:34%;
+    right:0px;
+    top:150px;
+    
+}
+
+/* best-gifts related style */
+
+.best-gifts-container{
+    max-width: 1100px;
+    min-height:400px;
+    margin:100px auto;
+}
+.best-gifts-title{
+    text-align: left;
+    color:#F82814;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom:6px;
+}
+.best-gifts-heading{
+    text-align: left;
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom:6px;
+}
+.best-gifts-message{
+    text-align: left;
+    font-size: 12px;
+    color:grey;
+    margin-bottom:10px;
+}
+
+.gift-carts-first-row img , .gift-carts-second-row img{
+    width:32%;
+    margin-right:12px;
+    margin-top:15px;
+    opacity: .8;
+    transition:.6s;
+}
+.gift-carts-first-row img:hover{
+    transform:scale(1.1);
+    z-index:1;
+    cursor: pointer;
+}
+.gift-carts-second-row img:hover{
+    transform:scale(1.1);
+    z-index:1;
+    cursor: pointer;
+}
+
+/* subscribe-newsletter related style */
+.subscribe-newsletter-container{
+    max-width: 1100px;
+    min-height:400px;
+    margin:100px auto;
+    background-image: linear-gradient(to bottom right, white , rgb(255, 216, 202));
+    text-align: center;
+    border-radius: 10px;
+}
+.mail-pic{
+    max-width: 10%;
+    padding-top:40px;      
+}
+.subscribe-newsletter-heading{
+    font-weight: 900;
+    font-size: 36px;
+    padding:10px 0px;
+}
+.subscribe-newsletter-message{
+    font-size: 14px;
+    color:grey;
+    margin-bottom:30px;
+}
+.input-email{
+    padding:10px 20px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+    margin-right:0px;
+    border:none;
+}
+.input-button{
+    padding:10px 20px;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+    margin-left:-6px;
+    border:none;
+    background-color: #F82814;
+    color:white;
+    cursor:pointer;
+}
+
+/* footer style */
+.footer{
+    background-color: rgb(32, 32, 32);
+}
+.footer-container{
+    max-width: 1100px;
+    min-height:400px;
+    margin:100px auto 0px auto;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    padding-top:80px;
+    color:white;
+    margin-bottom:30px;
+}
+.address h5{
+    padding:5px 0px;
+}
+.contact-number , .contact-website{
+    display:flex;
+    text-align: center;
+    padding:5px 0px;
+    cursor:pointer;
+}
+.contact-number img , .contact-website img{
+    width:14px;
+    margin-right:5px;
+}
+hr{
+    border:1px solid rgba(126, 118, 118, 0.15);
+}
+.social-media{
+    text-align: center;
+}
+.social-media img{
+    max-width: 36px;
+    padding:30px 10px;
+    cursor: pointer;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.copyright h5{
+    color:red;
+}
+.copyright button{
+    padding:10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    background-color: red;
+    border:none;
+    font-weight: bolder;
+    cursor: pointer;
+}
